@@ -1,0 +1,123 @@
+
+        *{
+            padding:0;
+            margin:0;
+        }
+
+        a{color:White}
+        body{
+            height: 1000px;
+            font-family:Arial, Helvetica, sans-serif;
+            background:url(../img/bg.jpg) no-repeat center;
+            background-size: cover;
+            font-size:13px;
+            position: relative;
+        }
+        img{border:0;}
+        .lg{
+            width:468px;
+            height:468px;
+            position: absolute;
+            left:200px;
+            top:100px;
+            background:url(../img/login_bg.png) no-repeat;
+
+        }
+        .lg_top{ height:200px; width:468px;}
+        .lg_main{width:400px; height:180px; margin:0 25px;}
+        .lg_m_1{
+            width:290px;
+            height:100px;
+            padding:60px 55px 20px 55px;
+        }
+        .ur{
+            height:37px;
+            border:0;
+            color:#666;
+            width:236px;
+            margin:4px 28px;
+            background:url(../img/user.png) no-repeat;
+            padding-left:10px;
+            font-size:16pt;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .pw{
+            height:37px;
+            border:0;
+            color:#666;
+            width:236px;
+            margin:4px 28px;
+            background:url(../img/password.png) no-repeat;
+            padding-left:10px;
+            font-size:16pt;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .bn{
+            width:330px;
+            height:72px;
+            background:url(../img/enter.png) no-repeat ;
+            border:0;
+            display:block;
+            font-size:18px;
+            color:#FFF;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight:bolder;
+        }
+        .lg_foot{
+            height:80px;
+            width:330px;
+            padding: 6px 68px 0 68px;
+        }
+        .lg_foot .bn_l{
+            width: 165px;
+
+            height:72px;
+            background:url(../img/enter.png) no-repeat ;
+            border:0;
+            display:block;
+            font-size:18px;
+            color:#FFF;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight:bolder;
+            float: left;
+            padding-left: 64px;
+        }
+        .lg_foot .bn_r{
+            width: 165px;
+
+            height:72px;
+            background:url(../img/enterr.png) no-repeat  ;
+            border:0;
+
+            font-size:18px;
+            color:#FFF;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight:bolder;
+            padding-right: 64px;
+        }
+        .rg{
+            position: absolute;
+            width:400px;
+            height:400px;
+            right: 100px;
+            top: 150px;
+        }
+        .regist{
+            position: absolute;
+            width:400px;
+            height:400px;
+            right: 100px;
+            top: 135px;
+            border:solid 1px #0b6fa2;
+            padding:5px;
+            border-radius: 5px;
+            color:#bbbbbb;
+            display: none;
+            
+        }
+        .checkbox{
+            margin-left: 32px;
+        }
+        .btn{
+            margin-left:154px;
+        }
